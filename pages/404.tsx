@@ -18,8 +18,9 @@ const NotFound: NextPage = () => {
               <div className="col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">
                 <h1 className="mb-3">Oops! Page Not Found.</h1>
                 <p className="lead mb-7 px-md-12 px-lg-5 px-xl-7">
-                  The page you are looking for is not available or has been moved. Try a different page or go to
-                  homepage with the button below.
+                  Sometimes it's like speaking german 🇩🇪 You struggle to find the right words. We're so sorry. But the
+                  page you are looking for is not available or has been moved. Try a different page or go to homepage
+                  with the button below.
                 </p>
 
                 <NextLink title="Go to Homepage" href="/" className="btn btn-primary rounded-pill" />
