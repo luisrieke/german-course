@@ -8,8 +8,12 @@ import Headphone from 'icons/solid-mono/Headphone';
 
 // used in the about-2, about-8, about-11, about-13, about-15, about-17 block
 export const aboutList1 = [
-  ['Aenean quam ornare. Curabitur blandit.', 'Nullam quis risus eget urna mollis ornare.'],
-  ['Etiam porta euismod malesuada mollis.', 'Vivamus sagittis lacus vel augue rutrum.']
+  [
+    'Mother tangue speaker only 🇩🇪',
+    'Small groups of max. 8 people per class 🧑‍🤝‍🧑',
+    '3 slots every week to choose from, 60mins each 🕒',
+    'If you like the course, you can easily book more lessons 🚀'
+  ]
 ];
 
 // used in the about-6, about-19 block

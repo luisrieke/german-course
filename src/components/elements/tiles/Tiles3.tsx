@@ -3,7 +3,7 @@ import CountUp from 'react-countup';
 
 const Tiles3: FC = () => {
   return (
-    <div className="row gx-md-5 gy-5">
+    <div className="row gx-md-5 gy-5 pb-5">
       <div className="col-md-6">
         <figure className="rounded mt-md-10 position-relative">
           <img src="/img/photos/g5.jpg" srcSet="/img/photos/g5@2x.jpg 2x" alt="" />
@@ -22,10 +22,10 @@ const Tiles3: FC = () => {
             <div className="card bg-pale-primary text-center">
               <div className="card-body py-11 counter-wrapper">
                 <h3 className="counter text-nowrap">
-                  <CountUp end={5000} suffix="+" />
+                  <CountUp end={2023} suffix=" 🚀" />
                 </h3>
 
-                <p className="mb-0">Satisfied Customers</p>
+                <p className="mb-0">Starting soon</p>
               </div>
             </div>
           </div>

@@ -2,7 +2,6 @@ import CountUp from 'react-countup';
 import { FC, Fragment } from 'react';
 import { Tiles1 } from 'components/elements/tiles';
 import ListColumn from 'components/reuseable/ListColumn';
-import { ServiceCard3 } from 'components/reuseable/service-cards';
 // -------- data -------- //
 import { aboutList1 } from 'data/about';
 import { serviceList4 } from 'data/service';
@@ -25,35 +24,29 @@ const Services: FC = () => {
           >
             <h3 className="text-white mb-1 mt-n2">
               <span className="counter counter-lg">
-                <CountUp end={20} suffix="+" />
+                <CountUp end={9} />
               </span>
             </h3>
 
-            <p>Year Experience</p>
+            <p>Weeks</p>
           </div>
 
           <Tiles1 />
         </div>
 
         <div className="col-lg-6">
-          <h3 className="display-4 mb-5">We bring solutions to make life easier for our customers.</h3>
+          <h3 className="display-4 mb-5">
+            We help you to learn German with other beginners, lots of talking and even more fun.
+          </h3>
 
           <p className="mb-7">
-            Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Integer posuere
-            erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper.
-            Vestibulum id ligula.
+            Learning German can be hard and boring. We want to change that. We want to make learning German fun and
+            easy. We want to make learning German a social experience. We want to make learning German a community
+            experience.
           </p>
 
           <ListColumn list={aboutList1} />
         </div>
-      </div>
-
-      <div className="row gx-lg-8 gx-xl-12 gy-8">
-        {serviceList4.map(({ Icon, ...item }) => (
-          <div className="col-md-6 col-lg-4" key={item.id}>
-            <ServiceCard3 {...item} Icon={<Icon />} />
-          </div>
-        ))}
       </div>
     </Fragment>
   );

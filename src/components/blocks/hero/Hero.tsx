@@ -15,10 +15,12 @@ const Hero: FC = () => {
           <div className="col-lg-6">
             <div className="mt-10 mt-md-11 mt-lg-n10 px-10 px-md-11 ps-lg-0 pe-lg-13 text-center text-lg-start">
               <h1 className="display-1 mb-5" style={slideInDownAnimate('600ms')}>
-                Just sit &amp; relax while we take care of your business needs.
+                Christmas Special 🎄 Learn to speak basic German within 9 weeks
               </h1>
+              <br />
               <p className="lead fs-25 lh-sm mb-7 pe-md-10" style={slideInDownAnimate('900ms')}>
-                We make your spending stress-free for you to have the perfect control.
+                We help you to learn German in our sessions for beginners. You will learn the basics of German language
+                in 9 weeks starting from February 2023.
               </p>
 
               <div
@@ -26,11 +28,19 @@ const Hero: FC = () => {
                 style={slideInDownAnimate('900ms')}
               >
                 <span style={slideInDownAnimate('1200ms')}>
-                  <NextLink href="#" title="Explore Now" className="btn btn-lg btn-primary rounded-pill me-2" />
+                  <NextLink
+                    href="https://buy.stripe.com/28oaIC8oYgnmc7udQQ"
+                    title="Book now"
+                    className="btn btn-lg btn-primary rounded-pill me-2"
+                  />
                 </span>
 
                 <span style={slideInDownAnimate('1500ms')}>
-                  <NextLink href="#" title="Contact Us" className="btn btn-lg btn-outline-primary rounded-pill" />
+                  <NextLink
+                    href="https://buy.stripe.com/28o2c6bBa3AAefCfYZ"
+                    title="for a friend"
+                    className="btn btn-lg btn-outline-primary rounded-pill"
+                  />
                 </span>
               </div>
             </div>
