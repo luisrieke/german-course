@@ -2,7 +2,6 @@ import { useRouter } from 'next/router';
 import { Link as ScrollLink } from 'react-scroll';
 import { FC, Fragment, ReactElement, ReactNode } from 'react';
 // -------- custom component -------- //
-import { Navbar } from 'components/blocks/navbar';
 import PageProgress from 'components/common/PageProgress';
 import NextLink from 'components/reuseable/links/NextLink';
 import useClipboard from 'hooks/useClipboard';
@@ -121,14 +120,6 @@ const DocLayout: FC<DocLayoutProps> = ({
       <PageProgress />
 
       <div className="content-wrapper">
-        {/* ========== header ========== */}
-        <header className="wrapper bg-soft-primary">
-          <Navbar
-            language
-            button={<NextLink title="Contact" href="/contact-1" className="btn btn-sm btn-primary rounded-pill" />}
-          />
-        </header>
-
         {/* ========== page heading ========== */}
         <section className="wrapper bg-soft-primary">
           <div className="container pt-10 pb-12 pt-md-14 pb-md-16 text-center">

@@ -1,22 +1,12 @@
 import { NextPage } from 'next';
 import { Fragment } from 'react';
 // -------- custom component -------- //
-import { Navbar } from 'components/blocks/navbar';
-import { Footer8 } from 'components/blocks/footer';
 import FigureImage from 'components/reuseable/FigureImage';
 import NextLink from 'components/reuseable/links/NextLink';
 
 const NotFound: NextPage = () => {
   return (
     <Fragment>
-      {/* ========== header section ========== */}
-      <header className="wrapper bg-light">
-        <Navbar
-          language
-          button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
-        />
-      </header>
-
       <main className="content-wrapper">
         <section className="wrapper bg-light">
           <div className="container pt-12 pt-md-14 pb-14 pb-md-16">
@@ -38,9 +28,6 @@ const NotFound: NextPage = () => {
           </div>
         </section>
       </main>
-
-      {/* ========== footer section ========== */}
-      <Footer8 />
     </Fragment>
   );
 };

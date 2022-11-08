@@ -2,11 +2,8 @@ import { NextPage } from 'next';
 import { FC, Fragment } from 'react';
 import { Element, Link as ScrollLink } from 'react-scroll';
 // -------- custom component -------- //
-import { Navbar } from 'components/blocks/navbar';
-import { Footer8 } from 'components/blocks/footer';
 import Breadcrumb from 'components/reuseable/Breadcrumb';
 import PageProgress from 'components/common/PageProgress';
-import NextLink from 'components/reuseable/links/NextLink';
 // -------- data -------- //
 const linkList = [
   { id: 1, title: '1. Terms & Conditions', to: 'terms-conditions' },
@@ -26,14 +23,6 @@ const Terms: NextPage = () => {
   return (
     <Fragment>
       <PageProgress />
-
-      {/* ========== header section ========== */}
-      <header className="wrapper bg-soft-primary">
-        <Navbar
-          language
-          button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
-        />
-      </header>
 
       <main className="content-wrapper">
         <section className="wrapper bg-soft-primary">
@@ -284,9 +273,6 @@ const Terms: NextPage = () => {
           </div>
         </div>
       </main>
-
-      {/* ========== footer section ========== */}
-      <Footer8 />
     </Fragment>
   );
 };
