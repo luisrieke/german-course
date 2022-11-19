@@ -1,11 +1,19 @@
 @charset "UTF-8";
-/*!
-Theme Name: Sandbox - Modern & Multipurpose Nextjs Template
-Theme URI:	
-Version:	1.0.0
-Author:		ui-lib
-*/
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700');
+
+@font-face {
+    font-family: "Manrope";
+    src: url("/fonts/Manriope-Bold.ttf") format('truetype');        
+    src: url("/fonts/Manriope-ExtraBold.ttf") format('truetype');        
+    src: url("/fonts/Manriope-ExtraLight.ttf") format('truetype');        
+    src: url("/fonts/Manriope-Light.ttf") format('truetype');        
+    src: url("/fonts/Manriope-Medium.ttf") format('truetype');        
+    src: url("/fonts/Manriope-Regular.ttf") format('truetype');        
+    src: url("/fonts/Manriope-SemiBold.ttf") format('truetype');        
+    src: url("/fonts/Manriope-VariableFont_wght.ttf") format('truetype');        
+    font-weight: 400;
+    font-style: normal;
+}
+
 :root {
   --bs-gray-100: #fefefe;
   --bs-gray-200: #f6f7f9;
