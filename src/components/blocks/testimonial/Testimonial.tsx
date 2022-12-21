@@ -19,7 +19,7 @@ const Testimonial: FC = () => {
         <div className="col-lg-5 mt-5 mb-12">
           <span style={slideInDownAnimate('1200ms')}>
             <NextLink
-              href="https://buy.stripe.com/28oaIC8oYgnmc7udQQ"
+              href="https://buy.stripe.com/9AQ4ke7kU8UU1sQ8wy"
               title="Book now"
               className="btn btn-lg btn-primary rounded-pill me-2"
             />
@@ -27,7 +27,7 @@ const Testimonial: FC = () => {
 
           <span style={slideInDownAnimate('1500ms')}>
             <NextLink
-              href="https://buy.stripe.com/28o2c6bBa3AAefCfYZ"
+              href="https://buy.stripe.com/9AQ4ke6gQ3AA1sQaEH"
               title="for a friend"
               className="btn btn-lg btn-outline-primary rounded-pill"
             />
