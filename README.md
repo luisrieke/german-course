@@ -4,7 +4,7 @@ This is a small project for an online course system for english speakers to lear
 
 ## Setup
 
-The project is my first attempt to use Next.js.
+The project is my first project I built with Next.js.
 You can find the documentation [here](https://nextjs.org/docs).
 
 ### Install dependencies
@@ -14,6 +14,10 @@ You can find the documentation [here](https://nextjs.org/docs).
 ### Build the project
 
 `npm run build` to build the project.
+
+### Run the project in development mode
+
+`npm run dev` to start the project in development mode.
 
 ### Run the project in production mode
 
