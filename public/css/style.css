@@ -1,17 +1,17 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: "Manrope";
-    src: url("/fonts/Manriope-Bold.ttf") format('truetype');        
-    src: url("/fonts/Manriope-ExtraBold.ttf") format('truetype');        
-    src: url("/fonts/Manriope-ExtraLight.ttf") format('truetype');        
-    src: url("/fonts/Manriope-Light.ttf") format('truetype');        
-    src: url("/fonts/Manriope-Medium.ttf") format('truetype');        
-    src: url("/fonts/Manriope-Regular.ttf") format('truetype');        
-    src: url("/fonts/Manriope-SemiBold.ttf") format('truetype');        
-    src: url("/fonts/Manriope-VariableFont_wght.ttf") format('truetype');        
-    font-weight: 400;
-    font-style: normal;
+  font-family: 'Manrope';
+  src: url('/fonts/Manriope-Bold.ttf') format('truetype');
+  src: url('/fonts/Manriope-ExtraBold.ttf') format('truetype');
+  src: url('/fonts/Manriope-ExtraLight.ttf') format('truetype');
+  src: url('/fonts/Manriope-Light.ttf') format('truetype');
+  src: url('/fonts/Manriope-Medium.ttf') format('truetype');
+  src: url('/fonts/Manriope-Regular.ttf') format('truetype');
+  src: url('/fonts/Manriope-SemiBold.ttf') format('truetype');
+  src: url('/fonts/Manriope-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
 
 :root {
@@ -411,7 +411,9 @@ select:disabled {
   opacity: 1;
 }
 
-[list]:not([type='date']):not([type='datetime-local']):not([type='month']):not([type='week']):not([type='time'])::-webkit-calendar-picker-indicator {
+[list]:not([type='date']):not([type='datetime-local']):not([type='month']):not([type='week']):not(
+    [type='time']
+  )::-webkit-calendar-picker-indicator {
   display: none !important;
 }
 
@@ -3756,7 +3758,9 @@ textarea.form-control-lg {
   border-bottom-right-radius: 0;
 }
 .input-group
-  > :not(:first-child):not(.dropdown-menu):not(.form-floating):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback),
+  > :not(:first-child):not(.dropdown-menu):not(.form-floating):not(.valid-tooltip):not(.valid-feedback):not(
+    .invalid-tooltip
+  ):not(.invalid-feedback),
 .input-group > .form-floating:not(:first-child) > .form-control,
 .input-group > .form-floating:not(:first-child) > .form-select {
   margin-left: -1px;
@@ -11593,9 +11597,15 @@ fieldset:disabled .btn {
   padding-bottom: 4rem !important;
 }
 
+/* old version 
 .py-14 {
   padding-top: 4.5rem !important;
   padding-bottom: 4.5rem !important;
+} */
+
+.py-14 {
+  padding-top: 2.5rem !important;
+  padding-bottom: 0.5rem !important;
 }
 
 .py-15 {

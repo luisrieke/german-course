@@ -25,7 +25,7 @@ const LandingPage: NextPage = () => {
           </div>
         </section>
 
-        <Banner />
+        {/* <Banner /> */}
 
         <section className="wrapper bg-light position-relative mg-12">
           <div className="container py-14 py-md-16">

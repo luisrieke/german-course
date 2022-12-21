@@ -8,12 +8,7 @@ import Headphone from 'icons/solid-mono/Headphone';
 
 // used in the about-2, about-8, about-11, about-13, about-15, about-17 block
 export const aboutList1 = [
-  [
-    'Mother tangue speaker only 🇩🇪',
-    'Small groups of max. 8 people per class 🧑‍🤝‍🧑',
-    '3 slots every week to choose from, 60mins each 🕒',
-    'If you like the course, you can easily book more lessons 🚀'
-  ]
+  ['Video lessons with a native teacher 🇩🇪', 'Learn German in a fun way 🎮', 'Learn when & where you want 📱']
 ];
 
 // used in the about-6, about-19 block

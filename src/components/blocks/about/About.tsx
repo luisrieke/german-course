@@ -10,7 +10,7 @@ const About: FC = () => {
       </div>
 
       <div className="col-lg-5">
-        <h3 className="display-4 mb-7">A few reasons why we could be the right fit for you.</h3>
+        <h3 className="display-4 mb-7">A few reasons why we could be the right fit for you 🤗</h3>
         <AccordionList />
       </div>
     </div>

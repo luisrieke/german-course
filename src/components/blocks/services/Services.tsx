@@ -35,14 +35,11 @@ const Services: FC = () => {
         </div>
 
         <div className="col-lg-6">
-          <h3 className="display-4 mb-5">
-            We help you to learn German with other beginners, lots of talking and even more fun.
-          </h3>
+          <h3 className="display-4 mb-5">We help you to learn German with a video course 🎥</h3>
 
           <p className="mb-7">
             Learning German can be hard and boring. We want to change that. We want to make learning German fun and
-            easy. We want to make learning German a social experience. We want to make learning German a community
-            experience.
+            easy. With our video course, you will learn German in a fun and easy way.
           </p>
 
           <ListColumn list={aboutList1} />
