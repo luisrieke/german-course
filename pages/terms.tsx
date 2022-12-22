@@ -1,9 +1,10 @@
 import { NextPage } from 'next';
-import { FC, Fragment } from 'react';
+import { Fragment } from 'react';
 import { Element, Link as ScrollLink } from 'react-scroll';
-// -------- custom component -------- //
 import Breadcrumb from 'components/reuseable/Breadcrumb';
 import PageProgress from 'components/common/PageProgress';
+import Script from 'next/script';
+
 // -------- data -------- //
 const linkList = [
   { id: 1, title: '1. Imprint', to: 'imprint' },
@@ -306,24 +307,19 @@ const Terms: NextPage = () => {
                       überwiegendes schutzwürdiges Interesse an Nichtweitergabe deiner Daten hast.
                     </p>
                     <br />
-                    <p>14. Cookies</p>
-                    <p>Diese Seite ist frei von Cookies.</p>
-                    <br />
-                    <p>15. Content Delivery Network</p>
-                    <p>
-                      Um die Sicherheit dieser Seite zu erhöhen arbeiten wir mit einem sogenannten CDN, einem Content
-                      Delivery Network. Dieses bearbeitet Ihre Anfrage in der Regel in einem Land, in dem Sie mit Ihrem
-                      Endgerät suchen. Kritische Länder, Bots oder Crawls können so automatisiert geblockt werden um
-                      Angriffe auf die Seite und einen Upload von bösartigen Inhalten zu verhindern. Spacifik arbeitet
-                      hier mit Cloudflare. Was diese Firma möglich macht, ist ein Schutz Ihrer Daten. Mehr dazu finden
-                      Sie unter: https://www.cloudflare.com/de-de/gdpr/introduction/
-                    </p>
-                    <br />
-                    <p>16. Kontaktaufnahme</p>
+                    <p>14. Kontaktaufnahme</p>
                     <p>
                       Sobald du in Kontakt mit uns trittst, zum Beispiel per E-Mail, werden deine Angaben für die
                       Bearbeitung der Anfrage und für den Fall von Anschlussfragen gespeichert.
                     </p>
+                    <br />
+                    <p>14. Cookies</p>
+                    <Script
+                      id="CookieDeclaration"
+                      src="https://consent.cookiebot.com/1315d47d-d606-4f96-a103-c9afa6469781/cd.js"
+                      type="text/javascript"
+                      async
+                    ></Script>
                   </div>
                 </div>
               </Element>
