@@ -323,12 +323,12 @@ const Terms: NextPage = () => {
                   <div className="card-body p-10">
                     <h2 className="mb-3">3. Cookies</h2>
                     <p>You will find all detailed Information down below:</p>
-                    <br />
-                    <br />
                     <Cookies />
                   </div>
                 </div>
               </Element>
+              <br />
+              <br />
             </div>
           </div>
         </div>
