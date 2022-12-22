@@ -26,7 +26,7 @@ const Tiles3: FC = () => {
                   <CountUp end={20} />
                   th
                   <p>of</p>
-                  <CountUp end={3} suffix=" (March)" />
+                  <h2>March</h2>
                   <p></p>
                   <CountUp end={2023} suffix=" 🚀" />
                 </h3>

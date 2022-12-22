@@ -5,8 +5,8 @@ const accordions = [
   {
     no: 'One',
     expand: true,
-    heading: 'No subscription, no long-term contract',
-    body: 'You can book this course once. There is no subscription trap and no obligation to continue another course. This also makes the course perfect as a present if you are not booking the course for yourself but for friends or loved ones.'
+    heading: 'Individual payment options and no subscription trap',
+    body: 'You can book this course once. There is no subscription trap and no obligation to continue another course. This also makes the course perfect as a present if you are not booking the course for yourself but for friends or loved ones. But if you are not sure if you can finish the course within 10 weeks, it is also possible to book the course for 8$ a week and keep subscribed as long as you need to. You can cancel the subscription at any time.'
   },
   {
     no: 'Two',
