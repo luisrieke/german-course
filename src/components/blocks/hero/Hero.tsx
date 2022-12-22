@@ -29,16 +29,16 @@ const Hero: FC = () => {
               >
                 <span style={slideInDownAnimate('1200ms')}>
                   <NextLink
-                    href="https://buy.stripe.com/9AQ4ke7kU8UU1sQ8wy"
-                    title="Book now"
+                    href="https://buy.stripe.com/7sI6sm7kUefe8ViaEI"
+                    title="one-time payment"
                     className="btn btn-lg btn-primary rounded-pill me-2"
                   />
                 </span>
 
                 <span style={slideInDownAnimate('1500ms')}>
                   <NextLink
-                    href="https://buy.stripe.com/9AQ4ke6gQ3AA1sQaEH"
-                    title="for a friend"
+                    href="https://buy.stripe.com/7sI6sm7kUefe8ViaEI"
+                    title="14$/week"
                     className="btn btn-lg btn-outline-primary rounded-pill"
                   />
                 </span>

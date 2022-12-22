@@ -19,16 +19,19 @@ const Testimonial: FC = () => {
         <div className="col-lg-5 mt-5 mb-12">
           <span style={slideInDownAnimate('1200ms')}>
             <NextLink
-              href="https://buy.stripe.com/9AQ4ke7kU8UU1sQ8wy"
-              title="Book now"
+              href="https://buy.stripe.com/7sI6sm7kUefe8ViaEI"
+              title="120$ one-time payment"
               className="btn btn-lg btn-primary rounded-pill me-2"
             />
           </span>
 
+          <br />
+          <br />
+
           <span style={slideInDownAnimate('1500ms')}>
             <NextLink
-              href="https://buy.stripe.com/9AQ4ke6gQ3AA1sQaEH"
-              title="for a friend"
+              href="https://buy.stripe.com/7sI6sm7kUefe8ViaEI"
+              title="14$ in 10 weekly payments"
               className="btn btn-lg btn-outline-primary rounded-pill"
             />
           </span>
