@@ -3,17 +3,19 @@ import { Fragment } from 'react';
 import { Element, Link as ScrollLink } from 'react-scroll';
 import Breadcrumb from 'components/reuseable/Breadcrumb';
 import PageProgress from 'components/common/PageProgress';
-import Script from 'next/script';
+import Cookies from 'components/cookies';
 
 // -------- data -------- //
 const linkList = [
   { id: 1, title: '1. Imprint', to: 'imprint' },
-  { id: 2, title: '2. Data Privacy', to: 'data-privacy' }
+  { id: 2, title: '2. Data Privacy', to: 'data-privacy' },
+  { id: 3, title: '3. Cookies', to: 'cookies' }
 ];
 
 const breadcrumb = [
   { id: 1, title: 'Home', url: '/' },
-  { id: 2, title: 'Imprint and Data Privacy', url: '/terms' }
+  { id: 2, title: 'Imprint and Data Privacy', url: '/terms' },
+  { id: 3, title: 'Cookies', url: '/terms' }
 ];
 
 const Terms: NextPage = () => {
@@ -316,16 +318,11 @@ const Terms: NextPage = () => {
                 </div>
               </Element>
 
-              <Element name="data-privacy" className="wrapper pt-16">
+              <Element name="cookies" className="wrapper pt-16">
                 <div className="card">
                   <div className="card-body p-10">
                     <h2 className="mb-3">3. Cookies</h2>
-                    <Script
-                      id="CookieDeclaration"
-                      src="https://consent.cookiebot.com/1315d47d-d606-4f96-a103-c9afa6469781/cd.js"
-                      type="text/javascript"
-                      async
-                    ></Script>
+                    <Cookies />
                   </div>
                 </div>
               </Element>
