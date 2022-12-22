@@ -8,7 +8,7 @@ import Headphone from 'icons/solid-mono/Headphone';
 
 // used in the about-2, about-8, about-11, about-13, about-15, about-17 block
 export const aboutList1 = [
-  ['Video lessons with a native teacher 🇩🇪', 'Learn German in a fun way 🎮', 'Learn when & where you want 📱']
+  ['lessons with a native teacher 🇩🇪', 'Learn German in a fun way 🎮', 'Learn when & where you want 📱']
 ];
 
 // used in the about-6, about-19 block

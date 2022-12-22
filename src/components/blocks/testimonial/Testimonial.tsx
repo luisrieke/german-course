@@ -6,7 +6,7 @@ import { slideInDownAnimate } from 'utils/animation';
 const Testimonial: FC = () => {
   return (
     <Fragment>
-      <h3 className="display-4 mb-3 text-center">Start your journey now!</h3>
+      <h3 className="display-4 mb-3 text-center">2023 cohort starting in a few weeks!</h3>
       <p className="lead fs-lg mb-10 text-center">
         Simply register now, jump in and start your A1 German video course 🇩🇪
       </p>

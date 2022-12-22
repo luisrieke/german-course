@@ -15,12 +15,12 @@ const Hero: FC = () => {
           <div className="col-lg-6">
             <div className="mt-10 mt-md-11 mt-lg-n10 px-10 px-md-11 ps-lg-0 pe-lg-13 text-center text-lg-start">
               <h1 className="display-1 mb-5" style={slideInDownAnimate('600ms')}>
-                Christmas Special 🎄 Learn to speak basic German within 9 weeks
+                The German Online Course Bootcamp 🇩🇪
               </h1>
               <br />
               <p className="lead fs-25 lh-sm mb-7 pe-md-10" style={slideInDownAnimate('900ms')}>
                 We help you to learn German in our sessions for beginners. You will learn the basics of German language
-                in 9 weeks starting from February 2023.
+                in 10 weeks starting from March 2023.
               </p>
 
               <div

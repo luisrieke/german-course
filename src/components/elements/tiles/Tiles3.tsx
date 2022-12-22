@@ -22,10 +22,16 @@ const Tiles3: FC = () => {
             <div className="card bg-pale-primary text-center">
               <div className="card-body py-11 counter-wrapper">
                 <h3 className="counter text-nowrap">
+                  <p className="mb-4">Next cohort starts</p>
+                  <CountUp end={20} />
+                  th
+                  <p>of</p>
+                  <CountUp end={3} suffix=" (March)" />
+                  <p></p>
                   <CountUp end={2023} suffix=" 🚀" />
                 </h3>
 
-                <p className="mb-0">Starting soon</p>
+                <p className="mb-0">Be part of it!</p>
               </div>
             </div>
           </div>

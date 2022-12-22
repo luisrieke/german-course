@@ -24,7 +24,7 @@ const Services: FC = () => {
           >
             <h3 className="text-white mb-1 mt-n2">
               <span className="counter counter-lg">
-                <CountUp end={9} />
+                <CountUp end={10} />
               </span>
             </h3>
 
@@ -39,7 +39,12 @@ const Services: FC = () => {
 
           <p className="mb-7">
             Learning German can be hard and boring. We want to change that. We want to make learning German fun and
-            easy. With our video course, you will learn German in a fun and easy way.
+            easy.
+          </p>
+          <p>
+            This is not "just a course". It's a kick-start event. Created with one goal: be able to speak basic German.
+            10 intensive weeks to learn the fundamentals you need. Unlocking access to an attractive job market and new
+            friends and relationships.
           </p>
 
           <ListColumn list={aboutList1} />

@@ -6,7 +6,7 @@ const accordions = [
     no: 'One',
     expand: true,
     heading: 'No subscription, no long-term contract',
-    body: 'You can book this course once. There is no subscription trap and no obligation to continue another course. This also makes the course perfect as a Christmas present if you are not booking the course for yourself but for friends or loved ones.'
+    body: 'You can book this course once. There is no subscription trap and no obligation to continue another course. This also makes the course perfect as a present if you are not booking the course for yourself but for friends or loved ones.'
   },
   {
     no: 'Two',
