@@ -4,14 +4,22 @@ import { Fragment } from 'react';
 import { Hero } from 'components/blocks/hero';
 import { About } from 'components/blocks/about';
 import { Footer } from 'components/blocks/footer';
-import { Banner } from 'components/blocks/banner';
 import { Services } from 'components/blocks/services';
 import { Testimonial } from 'components/blocks/testimonial';
 import PageProgress from 'components/common/PageProgress';
+import Script from 'next/script';
 
 const LandingPage: NextPage = () => {
   return (
     <Fragment>
+      <Script
+        id="Cookiebot"
+        src="https://consent.cookiebot.com/uc.js"
+        data-cbid="1315d47d-d606-4f96-a103-c9afa6469781"
+        data-blockingmode="auto"
+        type="text/javascript"
+      ></Script>
+
       <PageProgress />
 
       <main className="content-wrapper mt-12">

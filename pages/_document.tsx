@@ -6,13 +6,6 @@ export default class SandBox extends Document {
       <Html lang="en">
         <Head>
           <link rel="shortcut icon" href="/img/favicon.png" type="image/png" />
-          <script
-            id="Cookiebot"
-            src="https://consent.cookiebot.com/uc.js"
-            data-cbid="1315d47d-d606-4f96-a103-c9afa6469781"
-            data-blockingmode="auto"
-            type="text/javascript"
-          ></script>
         </Head>
 
         <body>
