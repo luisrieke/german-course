@@ -312,8 +312,14 @@ const Terms: NextPage = () => {
                       Sobald du in Kontakt mit uns trittst, zum Beispiel per E-Mail, werden deine Angaben für die
                       Bearbeitung der Anfrage und für den Fall von Anschlussfragen gespeichert.
                     </p>
-                    <br />
-                    <p>14. Cookies</p>
+                  </div>
+                </div>
+              </Element>
+
+              <Element name="data-privacy" className="wrapper pt-16">
+                <div className="card">
+                  <div className="card-body p-10">
+                    <h2 className="mb-3">3. Cookies</h2>
                     <Script
                       id="CookieDeclaration"
                       src="https://consent.cookiebot.com/1315d47d-d606-4f96-a103-c9afa6469781/cd.js"
