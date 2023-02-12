@@ -24,27 +24,25 @@ const Services: FC = () => {
           >
             <h3 className="text-white mb-1 mt-n2">
               <span className="counter counter-lg">
-                <CountUp end={10} />
+                <CountUp end={8} />
               </span>
             </h3>
 
-            <p>Weeks</p>
+            <p>People</p>
           </div>
 
           <Tiles1 />
         </div>
 
         <div className="col-lg-6">
-          <h3 className="display-4 mb-5">We help you to learn German with a video course 🎥</h3>
+          <h3 className="display-4 mb-5">Have a fun weekend together and learn some German 🥳</h3>
 
-          <p className="mb-7">
-            Learning German can be hard and boring. We want to change that. We want to make learning German fun and
-            easy.
-          </p>
+          <p className="mb-7">We're launching! 🙌 And you can be part of it 😊</p>
           <p>
-            This is not "just a course". It's a kick-start event. Created with one goal: be able to speak basic German.
-            10 intensive weeks to learn the fundamentals you need. Unlocking access to an attractive job market and new
-            friends and relationships.
+            This is not "just a course". It's a full weekend of fun, party and language lessons. We will explore Berlin
+            and get you into learning German. The plan is to kick-start your ass to learn some German. Prepare to meet
+            new people, gain new experiences and learn the fundamentals you need to communicate in German. This will be
+            an intense one-weekend-bootcamp to unlock access to an attractive job market and new friends in Germany.
           </p>
 
           <ListColumn list={aboutList1} />

@@ -15,12 +15,12 @@ const Hero: FC = () => {
           <div className="col-lg-6">
             <div className="mt-10 mt-md-11 mt-lg-n10 px-10 px-md-11 ps-lg-0 pe-lg-13 text-center text-lg-start">
               <h1 className="display-1 mb-5" style={slideInDownAnimate('600ms')}>
-                The German Online Course Bootcamp 🇩🇪
+                One Weekend. One Goal. Learn some German 🍻🇩🇪
               </h1>
               <br />
               <p className="lead fs-25 lh-sm mb-7 pe-md-10" style={slideInDownAnimate('900ms')}>
-                We help you to learn German in our sessions for beginners. You will learn the basics of German language
-                in 10 weeks starting from March 2023.
+                Berlin. 12.-14th of May 2023. Start learning German with other folks. One weekend. One cohort. With one
+                goal. Learn some German and have a good time together.
               </p>
 
               <div
@@ -30,16 +30,8 @@ const Hero: FC = () => {
                 <span style={slideInDownAnimate('1200ms')}>
                   <NextLink
                     href="https://buy.stripe.com/bIY18234Edbab3qbIN"
-                    title="one-time payment"
+                    title="register for bootcamp"
                     className="btn btn-lg btn-primary rounded-pill me-2"
-                  />
-                </span>
-
-                <span style={slideInDownAnimate('1500ms')}>
-                  <NextLink
-                    href="https://buy.stripe.com/7sI5oi8oY7QQ0oMfZ4"
-                    title="8$/week"
-                    className="btn btn-lg btn-outline-primary rounded-pill"
                   />
                 </span>
               </div>
