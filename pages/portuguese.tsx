@@ -4,7 +4,6 @@ import { Footer } from 'components/blocks/footer';
 import PageProgress from 'components/common/PageProgress';
 import Script from 'next/script';
 import { slideInDownAnimate } from 'utils/animation';
-import NextLink from 'components/reuseable/links/NextLink';
 
 const LandingPage: NextPage = () => {
   return (
@@ -22,7 +21,9 @@ const LandingPage: NextPage = () => {
       <main className="content-wrapper mt-12 mb-12">
         <section className="wrapper bg-light position-relative min-vh-70 d-lg-flex align-items-center">
           <div
-            style={{ backgroundImage: 'url(/img/photos/index.jpg)' }}
+            style={{
+              backgroundImage: 'url(/img/photos/portuguese.jpg)'
+            }}
             className="rounded-4-lg-start col-lg-6 order-lg-2 position-lg-absolute top-0 end-0 image-wrapper bg-image bg-cover h-100 min-vh-50"
           />
 
@@ -35,36 +36,13 @@ const LandingPage: NextPage = () => {
                   </h1>
                   <br />
                   <p className="lead fs-25 lh-sm mb-7 pe-md-10" style={slideInDownAnimate('900ms')}>
-                    Start learning a language with other folks. One weekend. One cohort. With one goal. Learn a new
-                    language. And by side some party 🪩 new food 🥙 and having a good time together 🍻
+                    Start learning a language with other folks. One weekend. One cohort. With one goal. Learn
+                    Portuguese. And by side some party 🪩 new food 🥘 and having a good time together 🌊☀️
                   </p>
 
-                  <div
-                    className="d-flex justify-content-center justify-content-lg-start"
-                    style={slideInDownAnimate('900ms')}
-                  >
-                    <span style={slideInDownAnimate('1200ms')}>
-                      <NextLink
-                        href="/german"
-                        title="learn german 🇩🇪"
-                        className="btn btn-lg btn-primary rounded-pill me-2"
-                      />
-                    </span>
-                  </div>
-                  <br />
-
-                  <div
-                    className="d-flex justify-content-center justify-content-lg-start"
-                    style={slideInDownAnimate('900ms')}
-                  >
-                    <span style={slideInDownAnimate('1200ms')}>
-                      <NextLink
-                        href="/portuguese"
-                        title="learn portuguese 🇵🇹"
-                        className="btn btn-lg btn-primary rounded-pill me-2"
-                      />
-                    </span>
-                  </div>
+                  <h2>
+                    Coming soon! <a href="mailto:luis.rieke@spacifik.com">Notify me</a>
+                  </h2>
                 </div>
               </div>
             </div>
@@ -73,9 +51,10 @@ const LandingPage: NextPage = () => {
         <section className="wrapper bg-light position-relative mg-12">
           <div className="container py-14 py-md-16">
             <Fragment>
-              <h3 className="display-4 mb-3 text-center">Start discovering new languages for yourself now!</h3>
+              <h3 className="display-4 mb-3 text-center">This bootcamp has not been planned yet</h3>
               <p className="lead fs-lg mb-10 text-center">
-                We're just launching, but awesome if you're part of it from the start 🚀👨‍🚀✨
+                Coming soon! If you want to be notified when this bootcamp is planned, please send us an email:{' '}
+                <a href="mailto:luis.rieke@spacifik.com">Notify me</a>
               </p>
             </Fragment>
           </div>
