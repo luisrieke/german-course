@@ -20,7 +20,7 @@ const Testimonial: FC = () => {
           <span style={slideInDownAnimate('1200ms')}>
             <NextLink
               href="https://buy.stripe.com/bIY18234Edbab3qbIN"
-              title="enroll now"
+              title="Secure your bootcamp spot now"
               className="btn btn-lg btn-primary rounded-pill me-2"
             />
           </span>
