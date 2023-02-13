@@ -22,7 +22,7 @@ const LandingPage: NextPage = () => {
 
       <PageProgress />
 
-      <main className="content-wrapper mt-12">
+      <main className="content-wrapper mt-12 mb-12">
         <Hero />
 
         <section className="wrapper bg-light">
