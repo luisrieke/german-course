@@ -19,7 +19,7 @@ const Hero: FC = () => {
               </h1>
               <br />
               <p className="lead fs-25 lh-sm mb-7 pe-md-10" style={slideInDownAnimate('900ms')}>
-                Berlin. 12.-14th of May 2023. Start learning German with other folks. One weekend. One cohort. With one
+                Berlin. 2nd - 4th of June 2023. Start learning German with other folks. One weekend. One cohort. With one
                 goal. Learn some German. And at the same time party, experience new food and met great people.
               </p>
 
