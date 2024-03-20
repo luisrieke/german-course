@@ -3,19 +3,16 @@ import { Fragment } from 'react';
 import { Element, Link as ScrollLink } from 'react-scroll';
 import Breadcrumb from 'components/reuseable/Breadcrumb';
 import PageProgress from 'components/common/PageProgress';
-import Cookies from 'components/cookies';
 
 // -------- data -------- //
 const linkList = [
   { id: 1, title: '1. Imprint', to: 'imprint' },
-  { id: 2, title: '2. Data Privacy', to: 'data-privacy' },
-  { id: 3, title: '3. Cookies', to: 'cookies' }
+  { id: 2, title: '2. Data Privacy', to: 'data-privacy' }
 ];
 
 const breadcrumb = [
   { id: 1, title: 'Home', url: '/' },
-  { id: 2, title: 'Imprint and Data Privacy', url: '/terms' },
-  { id: 3, title: 'Cookies', url: '/terms' }
+  { id: 2, title: 'Imprint and Data Privacy', url: '/terms' }
 ];
 
 const Terms: NextPage = () => {
@@ -314,16 +311,6 @@ const Terms: NextPage = () => {
                       Sobald du in Kontakt mit uns trittst, zum Beispiel per E-Mail, werden deine Angaben für die
                       Bearbeitung der Anfrage und für den Fall von Anschlussfragen gespeichert.
                     </p>
-                  </div>
-                </div>
-              </Element>
-
-              <Element name="cookies" className="wrapper pt-16">
-                <div className="card">
-                  <div className="card-body p-10">
-                    <h2 className="mb-3">3. Cookies</h2>
-                    <p>You will find all detailed Information down below:</p>
-                    <Cookies />
                   </div>
                 </div>
               </Element>

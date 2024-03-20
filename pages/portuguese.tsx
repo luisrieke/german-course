@@ -8,14 +8,6 @@ import { slideInDownAnimate } from 'utils/animation';
 const LandingPage: NextPage = () => {
   return (
     <Fragment>
-      <Script
-        id="Cookiebot"
-        src="https://consent.cookiebot.com/uc.js"
-        data-cbid="1315d47d-d606-4f96-a103-c9afa6469781"
-        data-blockingmode="auto"
-        type="text/javascript"
-      ></Script>
-
       <PageProgress />
 
       <main className="content-wrapper mt-12 mb-12">
