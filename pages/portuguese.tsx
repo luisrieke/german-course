@@ -10,7 +10,7 @@ const LandingPage: NextPage = () => {
     <Fragment>
       <PageProgress />
 
-      <main className="content-wrapper mt-12 mb-12">
+      {/* <main className="content-wrapper mt-12 mb-12">
         <section className="wrapper bg-light position-relative min-vh-70 d-lg-flex align-items-center">
           <div
             style={{
@@ -51,7 +51,7 @@ const LandingPage: NextPage = () => {
             </Fragment>
           </div>
         </section>
-      </main>
+      </main> */}
 
       <Footer />
     </Fragment>

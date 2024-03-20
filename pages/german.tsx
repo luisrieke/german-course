@@ -14,7 +14,7 @@ const LandingPage: NextPage = () => {
       <PageProgress />
 
       <main className="content-wrapper mt-12 mb-12">
-        <Hero />
+        {/* <Hero />
 
         <section className="wrapper bg-light">
           <div className="container py-14 py-md-18">
@@ -24,13 +24,12 @@ const LandingPage: NextPage = () => {
           </div>
         </section>
 
-        {/* <Banner /> */}
-
         <section className="wrapper bg-light position-relative mg-12">
           <div className="container py-14 py-md-16">
             <Testimonial />
           </div>
-        </section>
+        </section> 
+        */}
       </main>
 
       <Footer />
