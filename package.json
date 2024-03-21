@@ -24,7 +24,6 @@
     "react": "18.2.0",
     "react-countup": "^6.3.0",
     "react-dom": "18.2.0",
-    "react-hotjar": "^5.3.0",
     "react-scroll": "^1.8.7",
     "react-syntax-highlighter": "^15.5.0",
     "scrollcue": "^2.0.0",

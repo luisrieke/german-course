@@ -20,8 +20,6 @@ import 'plyr-react/plyr.css';
 import 'glightbox/dist/css/glightbox.css';
 // custom scrollcue css
 import 'plugins/scrollcue/scrollCue.css';
-// hotjar implementation
-import { hotjar } from 'react-hotjar';
 
 // =========================================================================
 if (typeof window !== 'undefined') {
@@ -70,7 +68,6 @@ function MyApp({ Component, pageProps }: AppProps) {
   // scroll animation added
   useEffect(() => {
     (async () => {
-      hotjar.initialize(3297159, 6);
       const scrollCue = (await import('plugins/scrollcue')).default;
       scrollCue.init({ interval: -400, duration: 700, percentage: 0.8 });
       scrollCue.update();
